@@ -86,10 +86,7 @@ export default class ListGlasses extends Component {
     },
   ];
   renderGlassModel = (url) => {
-    // <GlassModel value={url}></GlassModel>;
-    // <GlassesModel></GlassesModel>
-
-    document.getElementById("gm").innerHTML = `<img  src=${url}></img>`;
+    document.getElementById("glassModel").innerHTML = `<img  src=${url}></img>`;
   };
 
   renderGlasses = () => {
